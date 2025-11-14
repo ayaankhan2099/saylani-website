@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+#top{
+   background-color: #d8d8d8;
+   height: 60px  ;
+   display: flex; 
+   align-items: center;
+   gap: 25px;
+
+}
+#top h4{
+      color: #535353;
+      margin-left: 100px;
+}
+#top img{
+     height: 40px;
+}
+#top button{
+     margin-left: 700px;
+     border: 2px solid rgb(156, 155, 155);
+     background-color: white;
+     color: #000;
+     border-radius: 0;
+     height: 30px;
+     font-size: 17px;
+     font-weight: 9px;
+   
+}
+
+
+
+#navbar{
+    display: flex;
+    height: 70px;
+    padding-top: 10px;
+    border-bottom: 2px solid rgb(212, 211, 211);
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+#navbar ul{
+    display: flex;
+    color: rgb(117, 116, 116);
+    list-style: none;
+    gap: 20px;
+    justify-content: end;
+    margin: 10px;
+    margin-left: 360px;
+}
+
+#ow {
+   color: rgb(71, 207, 71);
+    margin-top: 7px;
+   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.navbarlist{
+    font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 7px;
+}
+
+button{
+    background-color: #3e90e2;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    border-style: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(71, 207, 71) ;
+    color: white;
+}
+#logo{
+    height:  60px;
+    margin-left: 100px;
+}
+
+#hero {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 20px;
+ 
+}
+.hero-text h1 {
+  font-size: 2rem;
+  color: #222;
+  
+}
+.highlight{
+      color: rgb(71, 207, 71);
+}
+.hero-text {
+  margin: 20px ;
+  max-width: 550px;
+
+}
+.btn{
+    border-radius: 0%;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+   
+}
+.btn:hover{
+    background-color: white;
+    color: #000;
+}
+    
+#image{
+    margin: 40px ;
+   
+}
+#funding{
+      height: 390px;
+      margin-top: 20px; 
+      margin-right: 200px;
+      
+}
+
+
+
+.donation-bar {
+  background-color: #f3ffe6;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 1350px;
+  height: 100px;
+  margin-left: 100px;
+  margin-right: 20px;
+}
+
+.donation-input {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.donation-input .label,
+.donation-input .currency {
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.donation-input input {
+  width: 80px;
+  padding: 8px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 14px;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 18px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000;
+  width: 180px;
+  height: 80px;
+  transition: transform 0.3s;
+}
+
+.button:hover {
+  background-color: gray;
+  color: white;
+  transform: scale(1.2);
+}
+
+.quick-donate {
+  background-color: #8bc34a;
+  color: white;
+  width: 180px;
+  height: 80px;
+  transition: transform 0.3s;
+}
+
+.quick-donate:hover {
+  background-color: #7cb342;
+  transform: scale(1.2); 
+}
